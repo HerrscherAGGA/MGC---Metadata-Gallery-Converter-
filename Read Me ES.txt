@@ -1,0 +1,28 @@
+🖼️ MGC - Metadata Gallery Converter
+MGC es una aplicación gráfica portable y sin instalación, creada para ver, editar y convertir fácilmente los metadatos de imágenes .png generadas con ComfyUI, Stable Diffusion o TensorART, en un formato más compatible con Civitai.
+
+🎯 ¿Para qué fue creado?
+Este programa nació por una razón simple:
+Me cansé de tener que copiar los prompts y parámetros a mano.
+Muchas veces las imágenes descargadas desde TensorART ocultan los metadatos cuando las subo a Civitai y aunque Tiefsee puede mostrarlo, era un fastidio cada vez que tenía que rellenarlas.
+
+Con MGC puedes:
+
+Visualizar imágenes como una galería.
+Ver automáticamente los prompts, negativos y parámetros.
+Editarlos o copiarlos fácilmente.
+Guardarlos como .txt o guardarlos nuevamente en una imagen .png adaptada a civitai.
+🛠️ Funciones principales
+✅ Galería con miniaturas de todas las imágenes de la carpeta.
+✅ Soporte para arrastrar imágenes o abrir carpetas.
+✅ Navegación con teclado (flechas ↑ y ↓).
+✅ Visualización clara de:
+Prompt positivo
+Prompt negativo
+Parámetros de generación (steps, sampler, seed, modelo, etc).
+✅ Botón para copiar todo el prompt fácilmente.
+✅ Conversión directa a formato Civitai.
+✅ Guardado como .txt o .png con los metadatos insertados.
+✅ Soporte para varios formatos: .png, .jpg, .jpeg, .webp.
+✅ Ventana emergente si no se encuentran metadatos (útil para imágenes .jpg).
+✅ Interfaz en español e inglés, con botón para cambiar idioma.
