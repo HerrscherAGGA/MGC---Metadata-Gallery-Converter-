@@ -23,8 +23,11 @@ Save metadata to .txt files or embed them back into .png images adapted for Civi
 
 🛠️ Key Features
 ✅ Thumbnail gallery with all images from the folder
+
 ✅ Drag & drop support and folder selection
+
 ✅ Keyboard navigation (↑ and ↓ arrows)
+
 ✅ Clear display of:
 
 Positive prompt
@@ -34,8 +37,13 @@ Negative prompt
 Generation parameters (steps, sampler, seed, model, etc.)
 
 ✅ Button to copy all metadata at once
+
 ✅ One-click conversion to Civitai-compatible format
+
 ✅ Save as .txt or .png with embedded metadata
+
 ✅ Support for multiple formats: .png, .jpg, .jpeg, .webp
+
 ✅ Warning window if metadata is missing (helpful for .jpg images)
+
 ✅ User interface in English and Spanish, with a language switch button
