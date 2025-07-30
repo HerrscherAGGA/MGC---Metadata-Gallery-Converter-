@@ -12,35 +12,20 @@ Guarda metadatos en archivos .txt o imágenes .png compatibles con Civitai.
 🛠️ Funciones principales
 
 ✅ Galería de imágenes: Navega por miniaturas de todas las imágenes en una carpeta.
-
 ✅ Soporte para múltiples formatos: Compatible con .png, .jpg, .jpeg y .webp.
-
 ✅ Navegación intuitiva: Usa flechas (↑, ↓, ←, →) para moverte por la galería, con atajos globales en toda la aplicación.
-
 ✅ Extracción de metadatos: Muestra automáticamente:  
-
 Prompt positivo.  
-
 Prompt negativo.  
-
 Parámetros de generación (steps, sampler, seed, modelo, etc.).
-
 ✅ Edición de metadatos: Añade o modifica prompts y parámetros manualmente si no se detectan.
-
 ✅ Guarda metadatos en .txt o incrusta en imágenes .png compatibles con Civitai.
-
 ✅ Interfaz personalizable:  
-
 Cambia entre español e inglés con un botón.  
-
 Personaliza colores y transparencia de la interfaz.
-
 ✅ Herramientas avanzadas:  
-
 Personalización de atajos de teclado.  
-
 Exportación masiva de metadatos a .txt.  
-
 Edición en lote de prompts (añadir prefijos/sufijos).
 
 📦 Instalación
@@ -61,11 +46,8 @@ Ver metadatos: Los prompts y parámetros se muestran automáticamente en la pest
 Editar: Si no hay metadatos, usa los campos manuales para añadir prompts y parámetros.  
 
 Copiar/Guardar:  
-
 Usa "Copiar Todo" para copiar prompts y parámetros al portapapeles.  
-
 Usa "Guardar como .txt" para exportar metadatos a un archivo.  
-
 Guarda metadatos en una imagen .png compatible con Civitai.
 
 Generador de Prompts: Copia etiquetas desde páginas como Danbooru, seleciona limpiar y convertir. 
