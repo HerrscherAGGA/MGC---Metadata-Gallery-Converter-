@@ -1,28 +1,86 @@
 🖼️ MGC - Metadata Gallery Converter
-MGC es una aplicación gráfica portable y sin instalación, creada para ver, editar y convertir fácilmente los metadatos de imágenes .png generadas con ComfyUI, Stable Diffusion o TensorART, en un formato más compatible con Civitai.
+MGC es una aplicación gráfica portable y sin instalación, diseñada para visualizar, editar y convertir los metadatos de imágenes generadas por herramientas como ComfyUI, Stable Diffusion o TensorArt, en un formato compatible con Civitai. Es ligera, fácil de usar y perfecta para gestionar tus imágenes de IA.
 
-🎯 ¿Para qué fue creado?
-Este programa nació por una razón simple:
-Me cansé de tener que copiar los prompts y parámetros a mano.
-Muchas veces las imágenes descargadas desde TensorART ocultan los metadatos cuando las subo a Civitai y aunque Tiefsee puede mostrarlo, era un fastidio cada vez que tenía que rellenarlas.
+🎯 ¿Por qué existe MGC?
+MGC nació de una necesidad simple: evitar copiar prompts y parámetros a mano. Las imágenes descargadas de TensorArt a menudo ocultan sus metadatos al subirlas a Civitai, y herramientas como Tiefsee, aunque útiles, hacían el proceso tedioso. MGC simplifica todo:
 
-Con MGC puedes:
+Visualiza imágenes en una galería con miniaturas.
+Extrae prompts positivos, negativos y parámetros automáticamente.
+Edita y copia metadatos con un solo clic.
+Guarda metadatos en archivos .txt o imágenes .png compatibles con Civitai.
 
-Visualizar imágenes como una galería.
-Ver automáticamente los prompts, negativos y parámetros.
-Editarlos o copiarlos fácilmente.
-Guardarlos como .txt o guardarlos nuevamente en una imagen .png adaptada a civitai.
 🛠️ Funciones principales
-✅ Galería con miniaturas de todas las imágenes de la carpeta.
-✅ Soporte para arrastrar imágenes o abrir carpetas.
-✅ Navegación con teclado (flechas ↑ y ↓).
-✅ Visualización clara de:
-Prompt positivo
-Prompt negativo
-Parámetros de generación (steps, sampler, seed, modelo, etc).
-✅ Botón para copiar todo el prompt fácilmente.
-✅ Conversión directa a formato Civitai.
-✅ Guardado como .txt o .png con los metadatos insertados.
-✅ Soporte para varios formatos: .png, .jpg, .jpeg, .webp.
-✅ Ventana emergente si no se encuentran metadatos (útil para imágenes .jpg).
-✅ Interfaz en español e inglés, con botón para cambiar idioma.
+
+✅ Galería de imágenes: Navega por miniaturas de todas las imágenes en una carpeta.
+
+✅ Soporte para múltiples formatos: Compatible con .png, .jpg, .jpeg y .webp.
+
+✅ Navegación intuitiva: Usa flechas (↑, ↓, ←, →) para moverte por la galería, con atajos globales en toda la aplicación.
+
+✅ Extracción de metadatos: Muestra automáticamente:  
+
+Prompt positivo.  
+
+Prompt negativo.  
+
+Parámetros de generación (steps, sampler, seed, modelo, etc.).
+
+✅ Edición de metadatos: Añade o modifica prompts y parámetros manualmente si no se detectan.
+
+✅ Guarda metadatos en .txt o incrusta en imágenes .png compatibles con Civitai.
+
+✅ Interfaz personalizable:  
+
+Cambia entre español e inglés con un botón.  
+
+Personaliza colores y transparencia de la interfaz.
+
+✅ Herramientas avanzadas:  
+
+Personalización de atajos de teclado.  
+
+Exportación masiva de metadatos a .txt.  
+
+Edición en lote de prompts (añadir prefijos/sufijos).
+
+📦 Instalación
+
+No requiere instalación: simplemente ejecuta mgc_mainv2.exe. (requiere las carpetas assets/temp_demo, no las borres, aunque puedes reemplazar el contenido de demo, lo importante es el icono y el directorio).
+
+Configuración inicial: Coloca imágenes en formato .png, .jpg, .jpeg o .webp en una carpeta accesible.  
+Si no seleccionas una carpeta, MGC usará assets/temp_demo por defecto.
+
+💻 Cómo usar MGC
+
+Abrir carpeta: Haz clic en "Abrir Carpeta" para cargar una carpeta con imágenes.  
+
+Navegar: Usa las flechas del teclado o las miniaturas para seleccionar imágenes.  
+
+Ver metadatos: Los prompts y parámetros se muestran automáticamente en la pestaña de metadatos.  
+
+Editar: Si no hay metadatos, usa los campos manuales para añadir prompts y parámetros.  
+
+Copiar/Guardar:  
+
+Usa "Copiar Todo" para copiar prompts y parámetros al portapapeles.  
+
+Usa "Guardar como .txt" para exportar metadatos a un archivo.  
+
+Guarda metadatos en una imagen .png compatible con Civitai.
+
+Generador de Prompts: Copia etiquetas desde páginas como Danbooru, seleciona limpiar y convertir. 
+
+Herramientas avanzadas: Accede a opciones como atajos personalizados, exportación masiva o edición en lote desde el menú correspondiente.  
+
+Ayuda: Haz clic en el botón "❓ Ayuda" para ver instrucciones básicas en la interfaz.
+
+📝 Notas
+
+Compatibilidad: Probado con imágenes de ComfyUI, Stable Diffusion y TensorArt. Otros formatos pueden requerir edición manual.  
+
+Portabilidad: El ejecutable incluye todos los recursos necesarios (assets/iconos, assets/temp_demo).  
+
+Soporte: Reporta errores o sugerencias en [https://civitai.com/models/1503552].
+
+📜 Licencia
+[MIT License]
