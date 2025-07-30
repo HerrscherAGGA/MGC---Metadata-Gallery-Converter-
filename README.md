@@ -14,26 +14,39 @@ Customize the user experience with language, color, and keyboard shortcut option
 🛠️ Key Features
 
 Image Gallery: Browse thumbnails of images in a folder, supporting .png, .jpg, .jpeg, and .webp formats.
+
 Intuitive Navigation: Use arrow keys (↑, ↓, ←, →) or click thumbnails to explore the gallery, with global shortcuts throughout the application.
+
 Automatic Metadata Extraction: Displays automatically:
+
 Positive prompt.
+
 Negative prompt.
+
 Generation parameters (steps, sampler, seed, model, etc.).
 
 
 Metadata Editing: Add or modify prompts and parameters manually if not detected.
+
 Metadata Export:
 Save metadata to .txt files.
+
 Embed metadata in Civitai-compatible .png images.
+
 Copy prompts and parameters to the clipboard with a single click.
 
-
 Prompt Generator: Import tags from platforms like Danbooru, with tools to clean and convert prompts.
+
 Advanced Tools:
+
 Customize keyboard shortcuts.
+
 Batch export metadata to .txt.
+
 Batch edit prompts (add prefixes/suffixes).
+
 Adjust interface colors and transparency.
+
 Zoom, rotate, and crop images.
 
 
@@ -44,13 +57,14 @@ Built-in Help: Access basic instructions via the "❓ Help" button.
 MGC is a portable application that requires no installation. To get started:
 
 Download: Obtain the mgc_mainv2.exe executable from Civitai or clone the repository from GitHub.
+
 Folder Structure: Ensure the assets/iconos, assets/temp_demo, and assets/CHANGELOG folders are present. You may replace the contents of assets/temp_demo, but do not delete the folder or its icon.
+
 System Requirements:
 Operating system: Windows 10 or higher (tested on Windows 11).
+
 Supported formats: .png, .jpg, .jpeg, .webp.
 No additional dependencies required.
-
-
 
 
 Note: If no image folder is selected, MGC defaults to assets/temp_demo.
@@ -75,7 +89,9 @@ If no metadata is detected, use manual fields to add prompts and parameters.
 
 Copy or Save Metadata:
 Copy All: Copy prompts and parameters to the clipboard.
+
 Save as .txt: Export metadata to a text file.
+
 Save as .png: Embed metadata in a Civitai-compatible image.
 
 
