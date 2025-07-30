@@ -22,6 +22,7 @@ Edit or copy any of them with ease.
 Save metadata to .txt files or embed them back into .png images adapted for Civitai.
 
 🛠️ Key Features
+
 ✅ Thumbnail gallery with all images from the folder
 
 ✅ Drag & drop support and folder selection
